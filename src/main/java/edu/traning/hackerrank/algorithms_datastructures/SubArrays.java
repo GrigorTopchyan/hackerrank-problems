@@ -1,6 +1,6 @@
 package edu.traning.hackerrank.algorithms_datastructures;
 
-import javafx.util.Pair;
+import edu.traning.hackerrank.common.Pair;
 
 import java.util.*;
 
@@ -13,7 +13,6 @@ public class SubArrays {
         }
 
         Pair<Integer,Integer> previous = new Pair<>(arr.get(0),1);
-
 
         for (int i : arr) {
 
